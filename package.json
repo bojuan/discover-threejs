@@ -1,0 +1,26 @@
+{
+  "name": "discover-threejs",
+  "version": "1.0.0",
+  "description": "Three.js exercises",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojuan/discover-threejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bojuan/discover-threejs/issues"
+  },
+  "homepage": "https://github.com/bojuan/discover-threejs#readme",
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
