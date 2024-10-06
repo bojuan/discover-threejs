@@ -4,7 +4,8 @@
   "description": "Three.js exercises",
   "main": "index.js",
   "scripts": {
-    "dev": "npx vite"
+    "dev": "npx vite",
+    "build-tailwind":"npx tailwindcss -i ./src/input.css -o ./styles/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "three": "^0.169.0"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.13",
     "vite": "^5.4.8"
   }
 }
