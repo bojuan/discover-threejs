@@ -25,4 +25,7 @@ const main = () => {
   button.addEventListener("click", handleButtonClick);
 };
 
-main();
+createWorld()
+
+
+// main();
